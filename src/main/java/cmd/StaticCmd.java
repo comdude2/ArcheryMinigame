@@ -1,4 +1,4 @@
 package cmd;
 
-public class StaticCmd {
+public class StaticCmd implements Cmd {
 }

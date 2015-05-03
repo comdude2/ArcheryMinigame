@@ -1,4 +1,4 @@
 package cmd;
 
-public class DynCmd {
+public class DynCmd implements Cmd {
 }
