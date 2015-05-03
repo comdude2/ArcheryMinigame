@@ -21,15 +21,22 @@ public class StallTimer extends BukkitRunnable {
                     switch(seconds) {
                         case 60:
                             //light 1
+                            break;
                         case 120:
                             //light 2
+                            break;
                         case 180:
                             s.getPlayer().sendMessage(ChatColor.GREEN + "2:30 Minutes remaining!");
                             //light 3
+                            break;
                         case 240:
                             //light 4
+                            break;
                         case 300:
                             //light 5
+                            break;
+                        default:
+                            break;
                     }
                 }
             }
